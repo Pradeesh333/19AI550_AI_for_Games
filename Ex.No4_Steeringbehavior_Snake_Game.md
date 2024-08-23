@@ -1,23 +1,25 @@
-Ex.No: 4 Implementation of Snake game using Steering behaviors
-DATE : 16.08.2024
-NAME : Pradeesh S
-REGISTER NUMBER : 212221240038
-AIM:
-To write a python program to simulate the snake game using steering behaviors
+# Ex.No: 4  Implementation of Snake game using Steering behaviors
 
-Algorithm:
-Start the program
-Import the necessary modules
-Initiate the pygame engine and window
-Specify the necessary parameter for background,snake and food
-Create a function for seeking behavior towards the target
-Move the snake towards the target by move function
-Increase the size of snake by wrap around function
-create a food at location randomly
-In main, create a game loop, move the snake towards the food,check the collision and increase the size
-Update the display
-Stop the program
-Program:
+#### DATE :  16.08.2024
+#### NAME : Pradeesh S
+#### REGISTER NUMBER : 212221240038
+
+### AIM: 
+To write a python program to simulate the snake game using steering behaviors
+### Algorithm:
+1. Start the program
+2. Import the necessary modules
+3. Initiate the pygame engine and window
+4. Specify the necessary parameter for background,snake and food
+5. Create a function for seeking behavior towards the target
+6.  Move the snake towards the target by move function
+7.  Increase the size of snake by wrap around function
+8.  create a food at location randomly
+9.  In main, create a game loop, move the snake towards the food,check the collision and increase the size
+10.  Update the display
+11.  Stop the program
+ ### Program:
+```
 import pygame
 import sys
 import random
@@ -41,6 +43,8 @@ pygame.display.set_caption("Steering Behavior Snake Game")
 
 # Clock to control the frame rate
 clock = pygame.time.Clock()
+```
+```
 class Snake:
     def __init__(self):
         self.body = [pygame.Vector2(WIDTH // 2, HEIGHT // 2)]
@@ -73,6 +77,8 @@ class Snake:
 
     def check_collision(self, food_position):
         return pygame.Vector2.distance_to(self.body[0], food_position) < SNAKE_SIZE
+```
+```
 class Food:
     def __init__(self):
         self.position = pygame.Vector2(random.randint(0, WIDTH - FOOD_SIZE), random.randint(0, HEIGHT - FOOD_SIZE))
@@ -86,6 +92,8 @@ class Food:
 # Create instances
 snake = Snake()
 food = Food()
+```
+```
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -104,10 +112,13 @@ while True:
     snake.draw(screen)
     pygame.display.flip()
     clock.tick(FPS)
-Output:
-Screenshot 2024-08-16 112239
+```
 
-Screenshot 2024-08-16 112248
+### Output:
+![Screenshot 2024-08-16 112239](https://github.com/user-attachments/assets/5f0cce59-0b32-42b0-b285-f3eeafcaab27)
 
-Result:
+![Screenshot 2024-08-16 112248](https://github.com/user-attachments/assets/cbcc939c-73d2-47b9-92db-353f79441f96)
+
+
+### Result:
 Thus the simple HotPotato game was implemented using Queue.
