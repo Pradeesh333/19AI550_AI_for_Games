@@ -1,4 +1,4 @@
-# Ex.No: 6  Implementation of Minimax Search
+# Ex.No: 8  Implementation of Minimax Search
 ### DATE:                                                                            
 ### REGISTER NUMBER : 
 ### AIM: 
