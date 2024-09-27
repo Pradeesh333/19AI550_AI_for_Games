@@ -58,7 +58,7 @@ print("Optimal value:", alpha_beta_pruning(0, 0, True, values, -INF, INF))
 
 ```
 ### Output:
-![](exp7.png)
+![](exp7op.png)
 
 
 ### Result:
