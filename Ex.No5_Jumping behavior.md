@@ -85,7 +85,7 @@ while True:
 
 ```
 ### Output:
-![](op1.png)
+![](exp5op1.jpeg)
 
 
 ### Result:
