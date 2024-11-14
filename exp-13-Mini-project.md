@@ -235,8 +235,8 @@ pygame.quit()
 
 ```
 ## Output
-![](mini1.png)
-![](mini2.png)
+![](op1.jpg)
+![](op2.jpg)
 
 # Result
 Thus the two-player maze game where one player is artificial intelligence is successfully implemented using pygames
