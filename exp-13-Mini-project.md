@@ -1,5 +1,6 @@
 # Ex.No: 11  Mini Project 
-#### DATE: 14/11/2024                                                                            
+#### DATE: 14/11/2024 
+#### NAME: PRADEESH S
 #### REGISTER NUMBER : 212221240038
 ## AIM: 
 The aim of this program is to create a two player maze runner where one player is artificial intelligence using pygames and Dijkstra algorithm.
