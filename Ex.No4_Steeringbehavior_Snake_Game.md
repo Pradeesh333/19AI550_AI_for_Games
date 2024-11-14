@@ -1,6 +1,6 @@
 # Ex.No: 4  Implementation of Snake game using Steering behaviors
 
-#### DATE :  16.08.2024
+#### DATE :  23.08.2024
 #### NAME : Pradeesh S
 #### REGISTER NUMBER : 212221240038
 
