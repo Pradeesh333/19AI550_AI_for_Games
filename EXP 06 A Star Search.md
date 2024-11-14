@@ -1,6 +1,7 @@
 # Ex.No: 6  Implementation of Zombie survival game using A* search 
 
-#### DATE: 14-11-2024
+#### DATE: 13-09-2024
+#### NAME: PRADEESH S
 #### REGISTER NUMBER : 212221240038
 ### AIM: 
 
