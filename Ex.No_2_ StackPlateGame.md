@@ -1,5 +1,5 @@
 # Ex.No: 2 Implementation of Stack Plate game using Queue 
-#### DATE : 16.08.2024      
+#### DATE : 09.08.2024      
 #### NAME : Pradeesh S
 #### REGISTER NUMBER : 212221240038
 
