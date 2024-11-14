@@ -53,7 +53,7 @@ The aim of this program is to create a two player maze runner where one player i
 3. **Hard**: Fast AI movement (lower `AI_SPEED_LIMIT`).
 
 ## Program
-'''
+```
 # Prompt for difficulty level
 difficulty = input("Select difficulty (easy, medium, hard): ").lower()
 
@@ -233,7 +233,7 @@ while running:
 
 pygame.quit()
 
-'''
+```
 ## Output
 ![](mini1.png)
 ![](mini2.png)
