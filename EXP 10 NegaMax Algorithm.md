@@ -1,6 +1,7 @@
 # Ex.No: 10 Implementation of Negamax algorithm 
 
-#### DATE: 14-11-2024
+#### DATE: 18-10-2024
+#### NAME: PRADEESH S
 #### REGISTER NUMBER : 212221240038
 ### AIM:
 
