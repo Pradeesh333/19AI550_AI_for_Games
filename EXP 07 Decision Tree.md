@@ -1,6 +1,7 @@
 # Ex.No: 7 Implementation of Decision Tree Learning 
-#### DATE:15-11-2024
-#### REGISTER NUMBER : 212221240038
+#### DATE:20-09-2024
+#### NAME: PRADEESH S
+#### REGISTER NUMBER: 212221240038
 ### AIM:
 
 Design a decision tree for following data. 
